@@ -36,7 +36,7 @@ public class About extends javax.swing.JFrame {
         setForeground(new java.awt.Color(204, 204, 204));
         setResizable(false);
 
-        aboutBack.setIcon(new javax.swing.ImageIcon("C:\\Users\\Hasmot Ali Hasu\\Documents\\NetBeansProjects\\Student Registration\\student\\project Image\\back.png")); // NOI18N
+        aboutBack.setIcon(new javax.swing.ImageIcon("back.png")); // NOI18N
         aboutBack.setText("Back");
         aboutBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
