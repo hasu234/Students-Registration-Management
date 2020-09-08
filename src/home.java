@@ -55,9 +55,9 @@ public class home extends javax.swing.JFrame {
         jPanel1.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel1.setBackground(new java.awt.Color(102, 102, 102));
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Hasmot Ali Hasu\\Documents\\NetBeansProjects\\Student Registration\\student\\project Image\\logo.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("logo.png")); // NOI18N
 
-        addStudentBTN.setIcon(new javax.swing.ImageIcon("C:\\Users\\Hasmot Ali Hasu\\Documents\\NetBeansProjects\\Student Registration\\student\\project Image\\AddStudent.png")); // NOI18N
+        addStudentBTN.setIcon(new javax.swing.ImageIcon("AddStudent.png")); // NOI18N
         addStudentBTN.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 addStudentBTNActionPerformed(evt);
@@ -68,7 +68,7 @@ public class home extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Add Student");
 
-        studentOperationBTN.setIcon(new javax.swing.ImageIcon("C:\\Users\\Hasmot Ali Hasu\\Documents\\NetBeansProjects\\Student Registration\\student\\project Image\\configuration.png")); // NOI18N
+        studentOperationBTN.setIcon(new javax.swing.ImageIcon("configuration.png")); // NOI18N
         studentOperationBTN.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 studentOperationBTNActionPerformed(evt);
@@ -79,7 +79,7 @@ public class home extends javax.swing.JFrame {
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Operation");
 
-        showStudentBTN.setIcon(new javax.swing.ImageIcon("C:\\Users\\Hasmot Ali Hasu\\Documents\\NetBeansProjects\\Student Registration\\student\\project Image\\showStudent.png")); // NOI18N
+        showStudentBTN.setIcon(new javax.swing.ImageIcon("showStudent.png")); // NOI18N
         showStudentBTN.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 showStudentBTNActionPerformed(evt);
@@ -90,21 +90,21 @@ public class home extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Show Student");
 
-        showAdminBTN.setIcon(new javax.swing.ImageIcon("C:\\Users\\Hasmot Ali Hasu\\Documents\\NetBeansProjects\\Student Registration\\student\\project Image\\showAdmin.png")); // NOI18N
+        showAdminBTN.setIcon(new javax.swing.ImageIcon("showAdmin.png")); // NOI18N
         showAdminBTN.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 showAdminBTNActionPerformed(evt);
             }
         });
 
-        adminOperationBTN.setIcon(new javax.swing.ImageIcon("C:\\Users\\Hasmot Ali Hasu\\Documents\\NetBeansProjects\\Student Registration\\student\\project Image\\configuration1.png")); // NOI18N
+        adminOperationBTN.setIcon(new javax.swing.ImageIcon("configuration1.png")); // NOI18N
         adminOperationBTN.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 adminOperationBTNActionPerformed(evt);
             }
         });
 
-        addAdminBTN.setIcon(new javax.swing.ImageIcon("C:\\Users\\Hasmot Ali Hasu\\Documents\\NetBeansProjects\\Student Registration\\student\\project Image\\addAdmin.png")); // NOI18N
+        addAdminBTN.setIcon(new javax.swing.ImageIcon("addAdmin.png")); // NOI18N
         addAdminBTN.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 addAdminBTNActionPerformed(evt);
@@ -197,7 +197,7 @@ public class home extends javax.swing.JFrame {
         fileMenu.setText("File");
 
         homeBTNunderFile.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_H, java.awt.event.InputEvent.CTRL_MASK));
-        homeBTNunderFile.setIcon(new javax.swing.ImageIcon("C:\\Users\\Hasmot Ali Hasu\\Documents\\NetBeansProjects\\Student Registration\\student\\project Image\\home.png")); // NOI18N
+        homeBTNunderFile.setIcon(new javax.swing.ImageIcon("home.png")); // NOI18N
         homeBTNunderFile.setText("Home");
         homeBTNunderFile.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -207,7 +207,7 @@ public class home extends javax.swing.JFrame {
         fileMenu.add(homeBTNunderFile);
 
         logoutMenuUnderFile.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_L, java.awt.event.InputEvent.CTRL_MASK));
-        logoutMenuUnderFile.setIcon(new javax.swing.ImageIcon("C:\\Users\\Hasmot Ali Hasu\\Documents\\NetBeansProjects\\Student Registration\\student\\project Image\\logout.png")); // NOI18N
+        logoutMenuUnderFile.setIcon(new javax.swing.ImageIcon("logout.png")); // NOI18N
         logoutMenuUnderFile.setText("Logout");
         logoutMenuUnderFile.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -221,7 +221,7 @@ public class home extends javax.swing.JFrame {
         aboutMenu.setText("About");
 
         aboutBTN.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_H, java.awt.event.InputEvent.CTRL_MASK));
-        aboutBTN.setIcon(new javax.swing.ImageIcon("C:\\Users\\Hasmot Ali Hasu\\Documents\\NetBeansProjects\\Student Registration\\student\\project Image\\about.png")); // NOI18N
+        aboutBTN.setIcon(new javax.swing.ImageIcon("about.png")); // NOI18N
         aboutBTN.setText("About");
         aboutBTN.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
